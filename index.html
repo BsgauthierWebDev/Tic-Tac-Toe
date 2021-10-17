@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <meta name = 'viewport' content = 'width = device-width, initial-scale = 1.0'>
+
+        <!-- CSS File Included-->
+        <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+
+        <!-- JavaScript File Included-->
+        <script src = 'script.js'></script>
+    </head>
+
+    <body>
+        <div id = 'main'>
+            <h1>TIC TAC TOE</h1>
+
+            <!-- Game Instructions-->
+            <p id = 'ins'>
+                Game begins when a box is selected.<br>
+                <br>First player begins as <b>Player X</b><br>
+                <br>Second player begins as <b>Player O</b>
+            </p>
+
+            <br><br>
+            <!-- 3 X 3 Grid of Boxes -->
+            <input type = 'text' id = 'b1' onClick = 'setB1(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b2' onClick = 'setB2(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b3' onClick = 'setB3(); setDOM();' readonly>
+            <br><br>
+
+            <input type = 'text' id = 'b4' onClick = 'setB4(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b5' onClick = 'setB5(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b6' onClick = 'setB6(); setDOM();' readonly>
+            <br><br>
+
+            <input type = 'text' id = 'b7' onClick = 'setB7(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b8' onClick = 'setB8(); setDOM();' readonly>
+
+            <input type = 'text' id = 'b9' onClick = 'setB9(); setDOM();' readonly>
+
+            <!-- Grid Ends Here -->
+            <br><br><br>
+            <!-- Button to Reset Game -->
+            <button id = 'button' onClick = 'resetGame()'>
+                RESET
+            </button>
+
+            <br><br>
+            <!-- Space to Show Player Turn -->
+            <p id = 'print'></p>
+        </div>
+    </body>
+</html>
