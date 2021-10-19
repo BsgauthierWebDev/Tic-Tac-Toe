@@ -7,14 +7,17 @@ JS sets the state and checks for matching lines of three common markers.
 ## Screenshots
 
 Instructions are listed, Player X starts the game.
+<br />
 <img src = 'https://github.com/BsgauthierWebDev/Tic-Tac-Toe/blob/master/Images/screenshot-1.JPG'>
 
-<br />
+<hr />
 
 Choose a square to select your move.
+<br />
 <img src = 'https://github.com/BsgauthierWebDev/Tic-Tac-Toe/blob/master/Images/screenshot-2.JPG'>
 
-<br />
+<hr />
 
 Get three in a row to win!
+<br />
 <img src = 'https://github.com/BsgauthierWebDev/Tic-Tac-Toe/blob/master/Images/screenshot-3.JPG'>
